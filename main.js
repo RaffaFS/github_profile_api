@@ -23,4 +23,7 @@ $(document).ready(function(){
         link.attr('href', json.html_url);
         link.attr('target', '_blank')
     })
+    .catch(function(erro){
+        alert("Ocorreu um erro")
+    })
 })
